@@ -14,7 +14,7 @@ RUN wget https://dl.dropboxusercontent.com/u/4550074/mesos/mesos-dns -O /usr/bin
 ADD ./isolator /isolator/isolator/
 ADD ./m4 /isolator/m4/
 ADD ./bootstrap /isolator/
-ADD ./calico_isolator.py /isolator/
+ADD ./calico_isolator /isolator/
 ADD ./configure.ac /isolator/
 ADD ./Makefile.am /isolator/
 ADD ./requirements.txt /isolator/
