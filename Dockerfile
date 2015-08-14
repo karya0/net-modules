@@ -1,4 +1,4 @@
-FROM mesosphere/mesos-modules-dev-phusion
+FROM mesosphere/mesos-modules-dev-phusion:18248d0f
 MAINTAINER Spike Curtis <spike@projectcalico.org>
 
 ####################
